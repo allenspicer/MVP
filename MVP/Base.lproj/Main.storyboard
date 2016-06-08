@@ -41,10 +41,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ekC-MO-weM">
-                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <rect key="frame" x="20" y="28" width="560" height="1051"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Most important thing to do is simply listen to a donor prospectMore: listen for clues as to how their interests align with the organization’s interestThe most important thing to say: simply explain your mission and your community. More: Use specific examples of your impact and relate your goals to a potential donor’s interestsAsking a major donor prospect for a donation on your first visit is an error.More: A first meeting with a major donor prospect should inform them of your work, get feedback and clues as to what vision you share. Always assume a donor wants more information about why their donation matters and where the money is going.More: Only when a donor indicateMeet face-to-face with any major donor prospect  More: Anything less than face-to-face is easier to ignore</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <mutableString key="text">Most important thing to do when meeting a new donor is simply to listen.More: listen for clues as to how their interests align with the organization’s interestThe most important thing to say: simply explain your mission and your community. More: Use specific examples of your impact and relate your goals to a potential donor’s interestsAsking a major donor prospect for a donation on your first visit is an error.More: A first meeting with a major donor prospect should inform them of your work, get feedback and clues as to what vision you share. Always assume a donor wants more information about why their donation matters and where the money is going.More: Only when a donor indicateMeet face-to-face with any major donor prospect  More: Anything less than face-to-face is easier to ignore</mutableString>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -66,6 +66,22 @@
                     <view key="view" contentMode="scaleToFill" id="sT3-F9-Bac">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5Yc-Ip-hj4">
+                                <rect key="frame" x="295" y="28" width="285" height="2337"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">o Tell them about yourselfo Listen to their concernso Ask directly for moneyo That they don't have to giveo How much you need moneyo Examples of your impact in the communityo Do not ask directly for a donationo Do not accept any donationo Do not stay more than 30 minuteso Meet face-to-faceo Show them everything the organization doeso Buy them lunch</string>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kuK-6M-XPB">
+                                <rect key="frame" x="20" y="20" width="285" height="2332"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">When meeting a new potential donor, the most important thing to do is:The most important thing to say to a potential donor is:On a first visit with a donor:If you consider someone a major prospect you should attempt to:</string>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -84,6 +100,18 @@
                     <view key="view" contentMode="scaleToFill" id="7GQ-YS-zlT">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-06-08 at 7.33.08 PM" translatesAutoresizingMaskIntoConstraints="NO" id="GWA-nU-BPD">
+                                <rect key="frame" x="20" y="28" width="75" height="55"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4yl-US-J4g">
+                                <rect key="frame" x="57" y="150" width="484" height="368"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Meeting Minutes FolderJune_Meeting_Minutes.docMarch_Meeting_Minutes.docBoard Policy FolderAnti-Discimination_Policy.docBoard Member FolderBoard_Member_Contract.doc</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -94,5 +122,6 @@
     </scenes>
     <resources>
         <image name="234fa5b7df0187ce8fb912074dd8ef02" width="564" height="846"/>
+        <image name="Screen Shot 2016-06-08 at 7.33.08 PM" width="74" height="52"/>
     </resources>
 </document>
