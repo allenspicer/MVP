@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home" id="BYZ-38-t0r" customClass="ViewController" customModule="MVP" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="234fa5b7df0187ce8fb912074dd8ef02" translatesAutoresizingMaskIntoConstraints="NO" id="EZM-Cu-1l3">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="301"/>
+        </scene>
+        <!--Info-->
+        <scene sceneID="Mbh-l0-2Fp">
+            <objects>
+                <viewController title="Info" id="kzv-fp-hzD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e2v-RJ-eFN"/>
+                        <viewControllerLayoutGuide type="bottom" id="23K-Dc-4RR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dxs-V9-cYM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ekC-MO-weM">
+                                <rect key="frame" x="20" y="28" width="560" height="552"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Most important thing to do is simply listen to a donor prospectMore: listen for clues as to how their interests align with the organization’s interestThe most important thing to say: simply explain your mission and your community. More: Use specific examples of your impact and relate your goals to a potential donor’s interestsAsking a major donor prospect for a donation on your first visit is an error.More: A first meeting with a major donor prospect should inform them of your work, get feedback and clues as to what vision you share. Always assume a donor wants more information about why their donation matters and where the money is going.More: Only when a donor indicateMeet face-to-face with any major donor prospect  More: Anything less than face-to-face is easier to ignore</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6N-ko-UrA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="301"/>
+        </scene>
+        <!--Quiz-->
+        <scene sceneID="4nj-Pt-umo">
+            <objects>
+                <viewController title="Quiz" id="03y-sf-i2q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jgr-dq-szn"/>
+                        <viewControllerLayoutGuide type="bottom" id="WYw-Nh-Odh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sT3-F9-Bac">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJB-xs-PIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1683" y="301"/>
+        </scene>
+        <!--Docs-->
+        <scene sceneID="FEM-gj-JAy">
+            <objects>
+                <viewController title="Docs" id="aNr-tZ-26t" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yP0-I3-cUi"/>
+                        <viewControllerLayoutGuide type="bottom" id="j1Z-Iv-4VC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7GQ-YS-zlT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3XX-ch-g13" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2367" y="301"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="234fa5b7df0187ce8fb912074dd8ef02" width="564" height="846"/>
+    </resources>
+</document>
